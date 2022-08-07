@@ -1,0 +1,74 @@
+.box-wrapper-page3 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.heading-page3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #495567;
+}
+
+.text-page3 {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #495567;
+}
+
+.btn-page3 {
+  width: 180px;
+  height: 53px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background: #fcb72b;
+  border: none;
+  padding: 10px 40px 10px 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.btn-page3:hover {
+  width: 180px;
+  height: 53px;
+  color: #fcb72b;
+  background: #ffffff;
+  border: 2px solid #fcb72b;
+}
+
+.page3-box {
+  max-width: 1110px;
+  height: 128px;
+  padding: 32px 40px 32px 40px;
+  background: #f2f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 625px) {
+  .page3-box {
+    height: 150px;
+    padding: 22px 40px 32px 40px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-page3 {
+    margin-top: 10px;
+  }
+  .heading-page3 {
+    font-size: 20px;
+  }
+}

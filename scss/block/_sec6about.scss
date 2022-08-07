@@ -80,8 +80,32 @@
   color: #495567;
   padding-top: 20px;
 }
+.btn {
+  width: 180px;
+  height: 53px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background: #fcb72b;
+  border: none;
+  padding: 10px 22px 10px 22px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.btn:hover {
+  width: 180px;
+  height: 53px;
+  color: #fcb72b;
+  background: #ffffff;
+  border: 2px solid #fcb72b;
+  transition: all 0.3s ease;
+}
 
-@media only screen and (max-width: 1085px) {
+@media only screen and (max-width: 1046px) {
   .sec6-flex {
     flex-direction: column;
   }
@@ -97,6 +121,9 @@
   .sec6-heading {
     text-align: center;
   }
+  .bnnama {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 775px) {
@@ -105,6 +132,9 @@
   }
   .sec6-boxs-2 {
     width: 600px;
+  }
+  .bnnama {
+    text-align: center;
   }
 }
 
@@ -117,6 +147,9 @@
   }
   .sec6-text-inner {
     font-size: 12px;
+  }
+  .bnnama {
+    text-align: center;
   }
 }
 
@@ -131,6 +164,9 @@
   }
   .sec6-text-inner {
     font-size: 12px;
+  }
+  .bnnama {
+    text-align: center;
   }
 }
 
@@ -156,5 +192,8 @@
   .sec6-heading {
     text-align: center;
     font-size: 30px;
+  }
+  .bnnama {
+    text-align: center;
   }
 }

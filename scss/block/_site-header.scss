@@ -39,33 +39,35 @@
     margin-right: auto;
   }
 
-  .site-header__item+.site-header__item {
+  .site-header__item + .site-header__item {
     margin-left: 32px;
   }
 
   .site-header__item-link {
     text-decoration: none;
-    font-family: 'Space Mono';
+    font-family: "Space Mono";
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
-    color: #939CAA;
+    color: #939caa;
   }
 
   .site-header__item-link:active {
-    color: #FCB72B;
+    color: #fcb72b;
     cursor: pointer;
   }
 
   .site-header__button {
     margin-left: auto;
+    border-radius: 5px;
+    transition: all 0.3s ease;
   }
 
   .site-header__button:hover {
     background-color: transparent;
-    border: 3px solid #FCB72B;
-    color: #FCB72B;
+    border: 3px solid #fcb72b;
+    color: #fcb72b;
     cursor: pointer;
   }
 }
@@ -102,7 +104,7 @@
       display: block;
       position: absolute;
       top: 100%;
-      background-color: #333A44;
+      background-color: #333a44;
       width: 70%;
       min-height: 700px;
       left: 0;
@@ -120,7 +122,7 @@
     }
 
     .site-header--open .site-header__item-link {
-      color: #E5ECF4;
+      color: #e5ecf4;
     }
 
     .site-header__hamburger.site-header__button {
@@ -128,10 +130,9 @@
       top: 100%;
     }
 
-    .site-header__item+.site-header__item {
+    .site-header__item + .site-header__item {
       margin-left: 0px;
       margin-top: 24px;
     }
   }
-
 }
