@@ -1,0 +1,61 @@
+.sec5-heading {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #495567;
+  padding-top: 50px;
+}
+
+.sec5-inner-heading {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #495567;
+  margin-top: 10px;
+}
+
+.sec5-text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939caa;
+  margin-top: 10px;
+}
+
+.sec5-box {
+  max-width: 350px;
+}
+
+.sec5-box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1102px) {
+  .sec5-box-1 {
+    flex-direction: column;
+  }
+  .sec5-box {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1102px) {
+  .sec5-img {
+    width: 250px;
+    height: auto;
+  }
+}

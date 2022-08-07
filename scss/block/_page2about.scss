@@ -1,0 +1,118 @@
+.page2-wrapper {
+  height: 200px;
+  background-image: url(../../img/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  padding-top: 20px;
+  background-size: cover;
+}
+
+.page2-heading {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.page2-sec3-heading {
+  max-width: 445px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #495567;
+}
+
+.page2-sec3-text {
+  max-width: 445px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+  margin-top: 15px;
+}
+
+.page2-sec3 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(../../img/Group15.png);
+  background-repeat: no-repeat;
+  background-size: 764px 400px;
+  background-position: calc(50% + 377px);
+}
+
+@media only screen and (max-width: 1046px) {
+  .page2-sec3-heading {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .page2-sec3-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .page2-sec3 {
+    padding-bottom: 500px;
+    background-position-y: calc(86%);
+    background-position-x: calc(50%);
+  }
+
+  .page2-wrapper {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 783px) {
+  .page2-sec3 {
+    background-size: 600px auto;
+  }
+}
+
+@media only screen and (max-width: 609px) {
+  .page2-sec3 {
+    background-size: 500px auto;
+  }
+  .page2-sec3 {
+    padding-top: 100px;
+    padding-bottom: 400px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .page2-sec3 {
+    background-size: 400px auto;
+  }
+  .page2-sec3 {
+    padding-top: 80px;
+    padding-bottom: 300px;
+  }
+  .page2-sec3-heading {
+    font-size: 40px;
+  }
+  .page2-sec3-text {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  .page2-sec3 {
+    background-size: 300px auto;
+  }
+  .page2-sec3 {
+    padding-top: 80px;
+    padding-bottom: 300px;
+  }
+  .page2-sec3-heading {
+    font-size: 37px;
+  }
+  .page2-sec3-text {
+    font-size: 13px;
+  }
+}
