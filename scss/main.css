@@ -213,7 +213,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -222,7 +223,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -398,6 +400,10 @@ template {
 .site-header__inner .site-header__img {
   width: 107;
   height: 28px;
+  transition: all 0.3s ease;
+}
+.site-header__inner .site-header__img:hover {
+  transform: scale(1.1);
 }
 .site-header__inner .site-header__nav {
   max-width: 950px;
@@ -425,7 +431,7 @@ template {
   line-height: 25px;
   color: #939caa;
 }
-.site-header__inner .site-header__item-link:active {
+.site-header__inner .site-header__item-link:hover {
   color: #fcb72b;
   cursor: pointer;
 }
@@ -502,16 +508,16 @@ template {
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  color: #FFFFFF;
-  background: #FCB72B;
+  color: #ffffff;
+  background: #fcb72b;
   padding: 14px 39px;
-  border: 3px solid #FCB72B;
+  border: 3px solid #fcb72b;
 }
 
 .site-header__button :active {
-  color: #FCB72B;
-  background: #FFFFFF;
-  border: 3px solid #FCB72B;
+  color: #fcb72b;
+  background: #ffffff;
+  border: 3px solid #fcb72b;
 }
 
 .site-hero {
@@ -531,7 +537,7 @@ template {
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 40px;
 }
 .site-hero .site-hero__box {
@@ -546,9 +552,9 @@ template {
   display: flex;
 }
 .site-hero .site-hero__button:active {
-  color: #FCB72B;
+  color: #fcb72b;
   background-color: transparent;
-  border: 3px solid #FCB72B;
+  border: 3px solid #fcb72b;
   cursor: pointer;
 }
 .site-hero .site-hero-text {
@@ -557,7 +563,7 @@ template {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 40px;
 }
 .site-hero .site-hero__img-next {
@@ -679,7 +685,7 @@ template {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #939CAA;
+  color: #939caa;
 }
 
 @media only screen and (max-width: 990px) {
@@ -907,7 +913,7 @@ template {
   font-size: 48px;
   line-height: 46px;
   letter-spacing: -2.14286px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .connect .connect__paragraph .connect__box-in-other {
   max-width: 130;
@@ -919,7 +925,7 @@ template {
 .connect .connect__box-in {
   display: flex;
   align-items: center;
-  background-color: #E5ECF4;
+  background-color: #e5ecf4;
   border-radius: 4px;
   padding: 8px 11px 9px 12px;
   width: 139px;
@@ -1040,7 +1046,7 @@ template {
   }
 }
 .site-footer {
-  background: #333A44;
+  background: #333a44;
 }
 .site-footer .site-footer__inner {
   display: flex;
@@ -1070,11 +1076,11 @@ template {
   font-weight: 700;
   font-size: 15px;
   line-height: 25px;
-  color: #939CAA;
+  color: #939caa;
   text-decoration: none;
 }
-.site-footer .site-footer__item-link:active {
-  color: #FCB72B;
+.site-footer .site-footer__item-link:hover {
+  color: #fcb72b;
 }
 .site-footer .site-footer__end-list {
   display: flex;
@@ -1086,7 +1092,7 @@ template {
   margin-left: 24px;
 }
 .site-footer .site-footer__img-hover :hover {
-  fill: #E5ECF4;
+  fill: #e5ecf4;
 }
 
 @media only screen and (max-width: 600px) {

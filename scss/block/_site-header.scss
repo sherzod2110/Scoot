@@ -21,6 +21,11 @@
   .site-header__img {
     width: 107;
     height: 28px;
+    transition: all 0.3s ease;
+  }
+
+  .site-header__img:hover {
+    transform: scale(1.1);
   }
 
   .site-header__nav {
@@ -53,7 +58,7 @@
     color: #939caa;
   }
 
-  .site-header__item-link:active {
+  .site-header__item-link:hover {
     color: #fcb72b;
     cursor: pointer;
   }

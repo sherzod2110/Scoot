@@ -1,19 +1,18 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 *,
 *::before,
-*::after{
-    box-sizing: inherit;
+*::after {
+  box-sizing: inherit;
 }
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'Space Mono', 'Lexend Deca';
+  font-family: "Space Mono", "Lexend Deca";
   margin: 0;
   padding: 0;
 }
@@ -22,7 +21,7 @@ body {
   height: auto;
   display: inline-block;
 }
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
